@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: WP-CLI WooCommerce to EDD Migration Script
- * Plugin URI:  https://github.com/zao-web/cli-framework
- * Description: Handles migrating WooCommerce to EDD (Including support for Subscriptions and API Keys)
+ * Plugin URI:  https://github.com/zao-web/WooCommerce-to-EDD-Migration
+ * Description: Handles migrating WooCommerce to EDD (Including support for Subscriptions and API Keys).
  * Version:     0.1.0
  * Author:      Zao
  * Author URI:  https://zao.is
