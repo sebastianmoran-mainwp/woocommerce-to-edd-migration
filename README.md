@@ -45,3 +45,7 @@ The `migrate_orders` command will migrate orders from WooCommerce into payments 
 ```
 $ wp migrate_woo migrate_orders
 ```
+
+## Contributing
+
+If you're interested in contributing to the development of the plugin or need to report an issue, please [see the contributing guidelines for the project](https://github.com/sebastianmoran-mainwp/woocommerce-to-edd-migration/CONTRIBUTING.md).
