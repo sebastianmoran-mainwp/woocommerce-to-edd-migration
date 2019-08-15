@@ -8,6 +8,19 @@ WP-CLI WooCommerce to EDD Migration Script requires [WooCommerce](https://wordpr
 
 To migrate WooCommerce data to Easy Digital Downloads, [you'll need to have the ability to run WP-CLI commands in your environment](http://wp-cli.org/).
 
+## Installation ##
+
+This section describes how to install the plugin and get it working.
+
+1. Upload `woocommerce-to-edd-migration` to the `/wp-content/plugins/` directory.
+1. Activate the plugin through the 'Plugins' menu in WordPress.
+
+To activate the plugin using WP-CLI you can run this command.
+
+```
+$ wp plugin activate wp-cli-woo-to-edd-migration
+```
+
 ## Migrating WooCommerce data to Easy Digital Downloads
 
 After installing and activating the plugin, you'll need to migrate products, product categories (taxonomies), coupons and orders.
@@ -45,7 +58,3 @@ The `migrate_orders` command will migrate orders from WooCommerce into payments 
 ```
 $ wp migrate_woo migrate_orders
 ```
-
-## Contributing
-
-If you're interested in contributing to the development of the plugin or need to report an issue, please [see the contributing guidelines for the project](https://github.com/sebastianmoran-mainwp/woocommerce-to-edd-migration/CONTRIBUTING.md).
